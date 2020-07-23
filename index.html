@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css" rel = "stylesheet">
+        <title>Mix-Or-Match</title>
+        <script src="script.js" async ></script>
+    </head>
+    <body>
+        <div id = "cursor" class="btn1"></div>
+        <h1 class="page-title">Match It</h1>
+        <div class="overlay-text visible ">
+            Click To start
+        </div>
+        <div id="game-over-text" class="overlay-text">
+            Game Over
+            <span class="overlay-text-small">Click to restart</span>
+        </div>
+        <div id="victory-text" class="overlay-text">
+            Victory
+            <span class="overlay-text-small">Click to restart</span>
+        </div>
+        <div class="game-container">
+            <div class="game-info-container">
+                <div class="game-info">
+                    Time <span id = "time-remaining">100</span>
+                </div>
+                <div class="game-info">
+                    Flips <span id = "flips">0</span>
+                </div>
+             </div>
+             <div class="card">
+                 <div class="card-back card-face">
+
+                    <img class="mountain card-img" src="images/mountain.png">
+
+                 </div>
+                 <div class="card-front card-face">
+
+                    <img class="card-value card-img2" src="images/princess.png">
+
+                 </div>
+
+             </div>
+
+             <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/princess.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2 fire" src="images/fire.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2 fire" src="images/fire.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/blueFluff.png">
+
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/blueFluff.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/burger.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/burger.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/purpleFluff.png">
+
+                </div>
+
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/purpleFluff.png">
+
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/crown.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/crown.png">
+
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/apple.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/apple.png">
+
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/flower.png">
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-back card-face">
+
+                   <img class="mountain  card-img" src="images/mountain.png">
+
+                </div>
+                <div class="card-front card-face">
+
+                   <img class="card-value card-img2" src="images/flower.png">
+
+                </div>
+
+            </div>
+
+            
+               
+            
+
+            
+        </div>
+    </body>
+</html>
